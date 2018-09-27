@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.icon {
+    width: 25px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+#gmail {
+    text-decoration: none;
+    color: rgb(23, 23, 32);
+    margin-right: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+#sign-in {
+    color: white;
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 #80B0FB;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.search {
+    width: 30%;
+    margin:0 auto;
+    min-width: 500px;
+    position: relative;
+    top: 50px;
+}
+#search {
+    width: 100%;
+    height: 44px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ padding-left: 16px;
+ border-radius: 5px;
+ background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/2000px-Google_mic.svg.png) 95% 50%  / 20px 30px no-repeat ;
+ font-size: 20px;
+}
+#search:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  }
+
+.logo {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 10px;
+}
+.btn {
+    height: 40px;
+    padding: 0 16;
+    border: none;  
+    border-radius: 5px;
+    font-weight: bold;
+    background: #f2f2f2;
+    margin: 11px 4px;
+    color: #A9A9A9;
+}
+.btn:hover {
+    
+    color:black;
+    cursor: pointer;
+    border:1px solid #c6c6c6;
+}
+#nav {
+    padding: 20px;
+    text-align: right;
+}
+#footer {
+    height:80px;
+    width: 100%;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+}
+#tunisia {
+    padding: 15px 15px 10px;
+    display: block;
+    color: #A9A9A9;
+    border-bottom:1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+}
+.r-links{
+    text-align: end;
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    font-size: small;
+}
+.l-links {
+    padding: 15px;
+    font-size: small;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(78, 78, 80);
+}
+.l-links a {
+    margin-right: 20px;
+}
+.r-links a {
+    margin-left: 20px;
+}
+.r-links {
+    padding: 5px;
+}
